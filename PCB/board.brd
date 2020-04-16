@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -80,10 +80,7 @@
 <wire x1="8.170028125" y1="4.3204125" x2="8.170028125" y2="11.57008125" width="0" layer="20"/>
 <wire x1="12.6998625" y1="11.18984375" x2="12.6998625" y2="11.57008125" width="0" layer="20"/>
 <wire x1="12.6998625" y1="11.18984375" x2="17.239859375" y2="11.18984375" width="0" layer="20"/>
-<wire x1="12.710025" y1="14.300075" x2="44.489996875" y2="14.300075" width="0" layer="20"/>
-<wire x1="12.710025" y1="13.84008125" x2="12.710025" y2="14.300075" width="0" layer="20"/>
-<wire x1="12.710025" y1="13.84008125" x2="17.190075" y2="13.84008125" width="0" layer="20"/>
-<wire x1="17.190075" y1="13.460096875" x2="17.190075" y2="13.84008125" width="0" layer="20"/>
+<wire x1="17.190075" y1="14.300075" x2="44.489996875" y2="14.300075" width="0" layer="20"/>
 <wire x1="17.190075" y1="13.460096875" x2="21.730071875" y2="13.460096875" width="0" layer="20"/>
 <wire x1="21.730071875" y1="13.079859375" x2="21.730071875" y2="13.460096875" width="0" layer="20"/>
 <wire x1="21.730071875" y1="13.079859375" x2="26.27006875" y2="13.079859375" width="0" layer="20"/>
@@ -1930,6 +1927,13 @@
 <wire x1="46" y1="84.5" x2="49.5" y2="81" width="0.5" layer="21" curve="-90"/>
 <wire x1="49.5" y1="4" x2="46" y2="0.5" width="0.5" layer="21" curve="-90"/>
 <wire x1="4" y1="0.5" x2="0.5" y2="4" width="0.5" layer="21" curve="-90"/>
+<wire x1="17.190075" y1="14.300075" x2="17.190075" y2="13.460096875" width="0" layer="20"/>
+<polygon width="0" layer="21">
+<vertex x="17.190075" y="13.84008125"/>
+<vertex x="12.710025" y="13.84008125"/>
+<vertex x="12.710025" y="14.300075"/>
+<vertex x="17.190075" y="14.300075"/>
+</polygon>
 </plain>
 <libraries>
 </libraries>
